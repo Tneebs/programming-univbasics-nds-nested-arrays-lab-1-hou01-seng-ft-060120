@@ -34,7 +34,11 @@ end
 def matrix_lookup(matrix, row, column)
   # Given any matrix (array of arrays), a row index and a column index, 
   # Return the matrix's content at that row and and column
+<<<<<<< HEAD
   matrix[row][column]
+=======
+  matrix_lookup(matrix, 1, 1)
+>>>>>>> d48cbbc9bfeb08032e23779229968c52a6498785
 end
 
 def matrix_update(matrix, row, column, new_value)
